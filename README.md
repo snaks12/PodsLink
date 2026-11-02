@@ -63,7 +63,7 @@ The format is not officially documented. It was worked out by the community — 
 - Audio routing matches the output whose name contains "AirPods"; don't rename them in Windows.
 
 ## Security & privacy
-No network, no logging, no files written. See [SECURITY.md](SECURITY.md) for details and known limits
+No network, no logging, no files written.
 (BLE advertisements are unauthenticated and can be spoofed by someone nearby).
 
 ## Troubleshooting
