@@ -1,0 +1,49 @@
+# ── Build output ───────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Dd]ist/
+publish/
+artifacts/
+
+# ── Visual Studio / Rider / VS Code ────────────
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.rsuser
+launchSettings.json
+
+# ── NuGet ──────────────────────────────────────
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# ── Logs, temp, crash dumps ────────────────────
+*.log
+*.tmp
+*.dmp
+*.pdb
+TestResults/
+
+# ── Packaged releases (publish them on GitHub Releases instead) ──
+*.zip
+*.7z
+*.exe
+
+# ── OS junk ────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ── Secrets / signing (never commit) ───────────
+*.pfx
+*.snk
+*.p12
+*.key
+.env
